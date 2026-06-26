@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+func getConcatenation(nums []int) []int {
+	var nums2 []int
 
-func main() {
-	fmt.Println("hello world!")
+	nums2 = append(nums2, nums...)
+	nums2 = append(nums2, nums...)
+
+	return nums2
 }
